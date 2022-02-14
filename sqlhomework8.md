@@ -1,15 +1,13 @@
-//1 
+1 
 
 CREATE TABLE employee 
-      (
+       (
 	id INTEGER,
 	name VARCHAR(50),
 	birthday DATE,
 	email VARCHAR(100)
-	
-       )
-
-//2
+	)
+2
 
 insert into employee (id, name, birthday, email) values (1, 'Julianna', '1935-03-19', 'jaikman0@vinaora.com');
 insert into employee (id, name, birthday, email) values (2, 'Mahmud', '1962-07-31', 'mivashinnikov1@squarespace.com');
